@@ -1,0 +1,68 @@
+
+
+
+.add-task-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.add-task-container input[type="text"] {
+  flex: 2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 25px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.add-task-container {
+  width:40em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,ol,li{
+  list-style-type:none;
+}
+
+.task-name{
+  color:#fff;
+  font-size: large;
+}
+
+.task-card{
+  display: flex;
+  flex-direction: row;
+  width:50em;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.task-nav{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.tassk-card-btns{
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5em;
+}

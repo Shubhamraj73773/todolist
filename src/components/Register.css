@@ -1,0 +1,149 @@
+/* .register-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+} */
+
+.register-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.register-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.register-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-page label {
+  margin-bottom: 10px;
+}
+
+.register-page input[type="text"],
+.register-page input[type="email"],
+.register-page input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.register-page button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+:root {
+  --primary-color: #4caf50;
+  --input-border-color: #ccc;
+  --font-size: 14px;
+  --padding: 10px;
+}
+
+.register-page input[type="text"],
+.register-page input[type="email"],
+.register-page input[type="password"] {
+  padding: var(--padding);
+  border: 1px solid var(--input-border-color);
+  border-radius: 3px;
+  font-size: var(--font-size);
+  margin-bottom: 10px;
+}
+
+.register-page button {
+  padding: var(--padding) calc(var(--padding) * 2);
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: var(--font-size);
+}
+
+.register-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.register-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container label {
+  margin-bottom: 10px;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.register-container button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
